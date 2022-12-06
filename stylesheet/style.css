@@ -1,7 +1,12 @@
-.bg-cus-yellow{
-   background-color:  #ffcc44;
-   text-align: end;
+.bg-image{
+     background-image:url('images/orawhite.jpeg') ;
+    /*background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    position: relative; */
+    /* z-index: 1; */
+    /* background-color: aqua; */
 }
-.text-cus-yellow{
- color:  #ffcc44;
- }
