@@ -1,12 +1,28 @@
 .bg-image{
-     background-image:url('images/orawhite.jpeg') ;
-    /*background-size: cover;
+    
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height: 100vh;
     width: 100%;
-    position: relative; */
-    /* z-index: 1; */
+    position: relative;
+    z-index: 1;
     /* background-color: aqua; */
+}
+.bg-image::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+body{
+    font-family: "Source Sans Pro",
+     -apple-system, BlinkMacSystemFont, "Segoe UI",
+     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
