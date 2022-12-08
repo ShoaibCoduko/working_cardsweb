@@ -1,5 +1,5 @@
-.bg-image{
-    
+.bg-image {
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,19 +11,37 @@
     /* background-color: aqua; */
 }
 
-.bg-image::before{
+.bg-image::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     z-index: -1;
 }
 
-body{
+body {
     font-family: "Source Sans Pro",
-     -apple-system, BlinkMacSystemFont, "Segoe UI",
-     Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.small-card {
+    width:auto;
+    height: 35px;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    display: inline;
+    /* border-radius: 5px; */
+    /* background-color: #fff; */
+    color: #000;
+    /* font-size: 12px; */
+    font-weight: 600;
+    margin:2px;
+    display: inline-block;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+
 }
