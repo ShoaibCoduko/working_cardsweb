@@ -22,6 +22,209 @@
         rel="stylesheet">
 
     <title>home page</title>
+    <style>
+        @media (min-width: 1000px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: auto;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (min-width: 1089px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 20px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 860px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (min-width: 720px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 18px;
+            grid-auto-rows: minmax(80px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 600px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 20px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            padding: 20px;
+            font-size: 30px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 599px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 20px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 540px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 15px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            /* padding: 20px; */
+            font-size: 30px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 400px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-gap: 15px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            /* padding: 20px; */
+            font-size: 12px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 300px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            /* padding: 10px; */
+            font-size: 10px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+       @media (max-width: 200px) {
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 10px;
+            grid-auto-rows: minmax(100px, auto);
+
+        }
+
+        .box {
+            background-color: white;
+            /* padding: 20px; */
+            font-size: 8px;
+        }
+
+        .box:first-child {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+       
+        
+       }
+    </style>
 </head>
 
 <body>
@@ -46,9 +249,9 @@
 
         <div class="w-75 m-auto">
             <!-- stated here small card menu -->
-            <div class="row py-5">
+            <div class="row py-5 bg-danger">
 
-                <div class="col-xxl-8 col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12">
+                <div class="col-xxl-8 col-xl-8  col-lg-8 col-md-12 col-sm-12 col-12 bg-info">
                     <div class="row">
                         <div class="col-lg-12 col-md-6 col-6">
                             <div class="text-dark fs-2">
@@ -64,16 +267,15 @@
                         <!-- nav bar roe in two col one col lg none and other col md shadow-lg -->
                         <!-- justify-content-between col-form-label card-group -->
                     </div>
-                    <div class="row" style="margin-left: -20px; justify-content:start;">
-                        <div class="col-sm-14 col-12 col-lg-4 col-md-4 col-sm-6 mb-3 d-inline-flex">
-                            <a href="special-ofr-pagr.html" class="ms-3 mb-2 text-decoration-none text-dark ">
-                                <div class="card  rounded-4" style="height: 100px; width: 190px;">
-                                    <div class="d-flex justify-content-between ms-3 d-inline-block">
+                    <div class="grid" style="padding: 1px; background-color: #ffbd09;">
+                        <div class="box card rounded-4">
+                            <a href="special-ofr-pagr.html" class=" mb-2 text-decoration-none text-dark ">
+                                
+                                    <div class="d-flex justify-content-between d-inline-block">
                                         <div class="text-center p-auto m-auto">
-                                            <img src="images/white-back.jpeg" class="rounded-4 img-fluid pt-0 m-0"
-                                                width="70" height="70" alt=" ">
+                                            <img src="images/white-back.jpeg" class="rounded-4 pt-0 m-0" width="60" height="60" alt=" ">
                                             <div class="p-0 pt-0 m-0">
-                                                <span class="p-0 m-0" style="font-size:12px;">Special Offer</span>
+                                                <span class="p-0 m-0">Special Offer</span>
                                             </div>
                                         </div>
                                         <div class="m-0 p-0 ms-auto m-auto text-center">
@@ -81,130 +283,192 @@
                                                 class="text-decoration-none bg-danger text-light rounded-5 px-2">view</a>
                                         </div>
                                     </div>
-
-                                </div>
+                
+                               
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="starter.html" class="ms-3 mb-2 text-decoration-none text-dark">
-                                <div class="card  rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
                                             <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
-
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="salad-page.html" class="ms-3 mb-2 text-decoration-none text-dark">
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Salad</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="snack-page.html" class="ms-3 mb-2 text-decoration-none text-dark ">
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Snack</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="Hotchpotch-page.html" class="ms-3 mb-2 text-decoration-none text-dark">
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Hotchpotch</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
-
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="special-ofr-pagr.html" class="ms-3 mb-2 text-decoration-none text-dark ">
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Pasta</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
-
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="special-ofr-pagr.html" class="ms-3 mb-2 text-decoration-none text-dark ">
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Meat Dish</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
-
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="special-ofr-pagr.html" class="ms-3 mb-2 text-decoration-none text-dark ">
-
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Burger</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
-
+                
                                 </div>
                             </a>
                         </div>
-                        <div class="col-sm-13 col-lg-2 col-md-2 col-sm-4 mb-3 col-xsm-13">
-                            <a href="special-ofr-pagr.html" class="ms-3 mb-2 text-decoration-none text-dark ">
-                                <div class="card rounded-4 px-2 py-2 w-auto d-inline-block"
-                                    style="height: 100px; width: 100px;">
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
                                     <div class="text-center m-0 p-0 px-1">
-                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60"
-                                            height="60" alt=" ">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
                                         <div class="p-0 pt-1 m-0">
-                                            <span class="p-0 m-0" style="font-size: 12px;">Dessert</span>
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
                                         </div>
                                     </div>
-
+                
                                 </div>
                             </a>
                         </div>
-
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
+                                    <div class="text-center m-0 p-0 px-1">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
+                                        <div class="p-0 pt-1 m-0">
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
+                                    <div class="text-center m-0 p-0 px-1">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
+                                        <div class="p-0 pt-1 m-0">
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
+                                    <div class="text-center m-0 p-0 px-1">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
+                                        <div class="p-0 pt-1 m-0">
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
+                                    <div class="text-center m-0 p-0 px-1">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
+                                        <div class="p-0 pt-1 m-0">
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
+                                    <div class="text-center m-0 p-0 px-1">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
+                                        <div class="p-0 pt-1 m-0">
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </a>
+                        </div>
+                        <div class="box border rounded-4">
+                            <a href="starter.html" class="ms-1 text-decoration-none text-dark">
+                                <div class="border-0">
+                                    <div class="text-center m-0 p-0 px-1">
+                                        <img src="images/white-back.jpeg" class="rounded-4 p-0 m-0" width="60" height="60" alt=" ">
+                                        <div class="p-0 pt-1 m-0">
+                                            <span class="p-0 m-0" style="font-size: 12px;">Starter</span>
+                                        </div>
+                                    </div>
+                
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
 
