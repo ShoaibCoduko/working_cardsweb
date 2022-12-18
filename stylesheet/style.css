@@ -8,7 +8,7 @@
     height: auto;
     width: 100%;
     position: relative;
-    z-index: 1;
+    /* z-index: 1; */
 
     /* background-color: aqua; */
 }
@@ -25,10 +25,10 @@
 }
 
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    /* font-family: "Source Sans Pro",
+    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+    font-family: "Source Sans Pro",
         -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+        Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
 }
 
 .small-card {
@@ -47,6 +47,61 @@ body {
     display: inline-block;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 
+}
+
+/* we are using larg media query for small screen */
+@media (min-width: 992px) {
+  .w-lg-75 {
+    width: 75% !important;
+
+  }
+  .w-lg-50 {
+    width: 50% !important;
+  }
+  .w-lg-25 {
+    width: 25% !important;
+  }
+  .h-lg-25 {
+    height: 25% !important;
+  }
+  .h-lg-50 {
+    height: 50% !important;
+  }
+  .h-lg-75 {
+    height: 75% !important;
+  }
+  .h-lg-100 {
+    height: 100% !important;
+  }
+  .mw-lg-100 {
+    max-width: 100% !important;
+  }
+}
+@media (min-width: 768px) {
+  .w-md-75 {
+    width: 75% !important;
+  }
+  .w-md-50 {
+    width: 50% !important;
+  }
+  .w-md-25 {
+    width: 25% !important;
+  }
+  .h-md-25 {
+    height: 25% !important;
+  }
+  .h-md-50 {
+    height: 50% !important;
+  }
+  .h-md-75 {
+    height: 75% !important;
+  }
+  .h-md-100 {
+    height: 100% !important;
+  }
+  .mw-md-100 {
+    max-width: 100% !important;
+  }
 }
 /* @media (min-width: 768px) {
        .col-md-0{   
@@ -1178,7 +1233,7 @@ body {
   }
 
 } */
-
+/* 
 @media (min-width: 400px) {
  
   .col-sm-13 {
@@ -1211,4 +1266,4 @@ body {
 .col-cu-{
   width: 10%;
   flex: 0 0 auto;
-}
+} */
