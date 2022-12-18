@@ -48,3 +48,43 @@ body {
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
 
 }
+/* @media (min-width: 768px) {
+       .col-md-0{   
+      display:none;
+    }
+   
+  
+  }
+  @media (min-width: 300px) {
+   
+  } */
+  /* .col-0{
+    display:none;
+  } */
+  /* @media (max-width: 300px) {
+   .topcard-samll{
+    width: 140px;
+    height: 120px;
+   }
+   .small-span{
+    font-size: 8px;
+   }
+   .im-h-w{
+    width: 20px;
+    height: 20px;
+   }
+  } 
+  @media (min-width: 301px) {
+    .topcard-samll{
+        height: 100px;
+        width: 190px;
+      }
+      .small-span{
+        font-size: 14px;
+      }
+      .im-h-w{
+        width: 60px;
+        height: 60px;
+       }
+   }  */
+  
